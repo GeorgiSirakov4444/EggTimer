@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,10 +20,10 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JVx-Se-uDS" userLabel="Title View">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="246.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="182.33333333333334"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you like your Eggs ?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="20" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IkT-gF-yVh">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="246.33333333333334"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="182.33333333333334"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -37,13 +38,13 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TjR-z1-Rgx">
-                                        <rect key="frame" x="0.0" y="256.33333333333331" width="393" height="246.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="192.33333333333331" width="393" height="182.33333333333331"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uuq-dZ-ggc" userLabel="Soft Egg">
-                                                <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="246.33333333333334"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="182.33333333333334"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVi-4d-R7Q">
-                                                        <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="246.33333333333334"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="182.33333333333334"/>
                                                         <accessibility key="accessibilityConfiguration" label="Soft Egg Button"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
@@ -55,7 +56,7 @@
                                                         </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="4lj-oo-M5q">
-                                                        <rect key="frame" x="9.9999999999999929" y="0.0" width="114.33333333333331" height="246.33333333333334"/>
+                                                        <rect key="frame" x="9.9999999999999929" y="0.0" width="114.33333333333331" height="182.33333333333334"/>
                                                     </imageView>
                                                 </subviews>
                                                 <constraints>
@@ -70,10 +71,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oft-Y1-TOu" userLabel="Mediom Egg">
-                                                <rect key="frame" x="134.33333333333334" y="0.0" width="124.33333333333334" height="246.33333333333334"/>
+                                                <rect key="frame" x="134.33333333333334" y="0.0" width="124.33333333333334" height="182.33333333333334"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQF-dh-mgM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="246.33333333333334"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="182.33333333333334"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Medium">
@@ -84,7 +85,7 @@
                                                         </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medium_egg" translatesAutoresizingMaskIntoConstraints="NO" id="EZw-GQ-OkI">
-                                                        <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="246.33333333333334"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="182.33333333333334"/>
                                                     </imageView>
                                                 </subviews>
                                                 <constraints>
@@ -99,10 +100,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xy7-l1-bXU" userLabel="Hard Egg">
-                                                <rect key="frame" x="268.66666666666669" y="0.0" width="124.33333333333331" height="246.33333333333334"/>
+                                                <rect key="frame" x="268.66666666666669" y="0.0" width="124.33333333333331" height="182.33333333333334"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcg-ud-y3y">
-                                                        <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="246.33333333333334"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="124.33333333333333" height="182.33333333333334"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Hard">
@@ -113,7 +114,7 @@
                                                         </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hard_egg" translatesAutoresizingMaskIntoConstraints="NO" id="0PN-HY-U2S">
-                                                        <rect key="frame" x="0.0" y="0.0" width="114.33333333333333" height="246.33333333333334"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="114.33333333333333" height="182.33333333333334"/>
                                                     </imageView>
                                                 </subviews>
                                                 <constraints>
@@ -141,10 +142,10 @@
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZIX-Eb-X3K" userLabel="Timer View">
-                                        <rect key="frame" x="0.0" y="512.66666666666663" width="393" height="246.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="384.66666666666669" width="393" height="182.00000000000006"/>
                                         <subviews>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="164-Ff-Gm1">
-                                                <rect key="frame" x="10" y="118.33333333333337" width="373" height="11"/>
+                                                <rect key="frame" x="10" y="85.999999999999943" width="373" height="11"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="10" id="ygi-24-bJb"/>
                                                 </constraints>
@@ -159,9 +160,37 @@
                                             <constraint firstItem="164-Ff-Gm1" firstAttribute="centerX" secondItem="ZIX-Eb-X3K" secondAttribute="centerX" id="yR5-la-NQZ"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0SD-LJ-pKg" userLabel="Button">
+                                        <rect key="frame" x="0.0" y="576.66666666666663" width="393" height="182.33333333333337"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKv-Lh-cnf">
+                                                <rect key="frame" x="134" y="63.666666666666742" width="125" height="55"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="55" id="3CX-5U-Tsk"/>
+                                                    <constraint firstAttribute="width" constant="125" id="5fu-JP-Nod"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Reset"/>
+                                                <connections>
+                                                    <action selector="resetFunction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0oA-oB-wjE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="vKv-Lh-cnf" firstAttribute="centerY" secondItem="0SD-LJ-pKg" secondAttribute="centerY" id="9XW-nj-JiA"/>
+                                            <constraint firstItem="vKv-Lh-cnf" firstAttribute="centerX" secondItem="0SD-LJ-pKg" secondAttribute="centerX" id="Bn9-nG-Qsa"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="ZIX-Eb-X3K" secondAttribute="trailing" constant="10" id="Yrv-f2-yhV"/>
+                                    <constraint firstItem="0SD-LJ-pKg" firstAttribute="top" secondItem="ZIX-Eb-X3K" secondAttribute="bottom" constant="10" id="a5b-GF-JqW"/>
+                                    <constraint firstAttribute="trailing" secondItem="0SD-LJ-pKg" secondAttribute="trailing" id="ahb-P7-hpr"/>
+                                    <constraint firstItem="0SD-LJ-pKg" firstAttribute="leading" secondItem="auN-GG-hMe" secondAttribute="leading" id="dwk-ze-aAF"/>
+                                    <constraint firstAttribute="bottom" secondItem="0SD-LJ-pKg" secondAttribute="bottom" id="is7-lp-BOy"/>
                                     <constraint firstItem="ZIX-Eb-X3K" firstAttribute="leading" secondItem="auN-GG-hMe" secondAttribute="leading" constant="10" id="it3-9i-qih"/>
                                     <constraint firstAttribute="trailing" secondItem="TjR-z1-Rgx" secondAttribute="trailing" constant="10" id="vAR-SC-Abt"/>
                                 </constraints>
@@ -178,6 +207,7 @@
                     </view>
                     <connections>
                         <outlet property="progressView" destination="164-Ff-Gm1" id="e8E-Oj-5bk"/>
+                        <outlet property="resetButton" destination="vKv-Lh-cnf" id="bjT-yP-vci"/>
                         <outlet property="titleLabel" destination="IkT-gF-yVh" id="6OZ-5D-fiD"/>
                     </connections>
                 </viewController>
@@ -190,5 +220,8 @@
         <image name="hard_egg" width="287.66665649414062" height="366.33334350585938"/>
         <image name="medium_egg" width="288" height="363.33334350585938"/>
         <image name="soft_egg" width="287" height="365.33334350585938"/>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

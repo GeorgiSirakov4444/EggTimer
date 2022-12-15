@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var resetButton: UIButton!
     
     var timer = Timer()
     let eggTimes = ["Soft": 360, "Medium": 480, "Hard": 720]
@@ -26,12 +27,17 @@ class ViewController: UIViewController {
         totalTime = eggTimes[hardness]!
         secondsPassed = 0
         progressView.progress = 0.0
-        titleLabel.text = hardness
+        titleLabel.text = hardness + ".."
         
         
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
     }
 
+    @IBAction func resetFunction(_ sender: UIButton) {
+        timer.invalidate()
+        progressView.progress = 0.0
+        titleLabel.text = "How would You like your Eggs ?"
+    }
         
     @objc func updateTimer() {
         if secondsPassed < totalTime {
